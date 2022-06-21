@@ -1,0 +1,130 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent !important;
+}
+
+
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+header h1 {
+    margin: 20px 20px 20px 50px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+main {
+    background-color: rgb(204, 204, 204);
+    margin: 0;
+    padding: 0;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-light {
+    padding: 20px 40px 20px 40px;
+}
+
+.video {
+    display: flex;
+    justify-content: center
+}
+
+#myForm {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding-top: 225px;
+    padding-bottom: 225px;
+
+}
+
+.col-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+/** höhe Boxen **/
+.card {
+    height: 180px;
+}
+
+/** myform box styling email-formular **/
+#fname {
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+#lname {
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+#email {
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+label {
+    padding: 10px 0 5px 0;
+}
+
+input {
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+} 
+
+/* Neuer Teil */
